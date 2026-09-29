@@ -6,7 +6,7 @@ module.exports=async(req,res)=>{
     const keys=["SMTP_HOST","SMTP_PORT","SMTP_SECURE","SMTP_USER","SMTP_PASS","CONTACT_EMAIL"];
     return res.status(200).json({
       ok:true,
-      service:"ConvertVideo contacto API",
+      service:"DigitalVideo contacto API",
       environment:Object.fromEntries(keys.map(k=>[k,Boolean(process.env[k])]))
     });
   }
@@ -52,11 +52,11 @@ module.exports=async(req,res)=>{
     await transporter.verify();
 
     await transporter.sendMail({
-      from:`"ConvertVideo" <${process.env.SMTP_USER}>`,
+      from:`"DigitalVideo" <${process.env.SMTP_USER}>`,
       to:process.env.CONTACT_EMAIL||process.env.SMTP_USER,
       replyTo:email,
-      subject:"Nueva consulta ConvertVideo - conversioncintasvhsadigital.com.es",
-      text:`Nueva consulta ConvertVideo
+      subject:"Nueva consulta DigitalVideo - digitalizarcintas.es",
+      text:`Nueva consulta DigitalVideo
 
 Nombre: ${nombre}
 Teléfono: ${telefono}
@@ -72,7 +72,7 @@ ${mensaje}`
     return res.status(200).json({ok:true});
 
   }catch(error){
-    console.error("ConvertVideo SMTP error",{
+    console.error("DigitalVideo SMTP error",{
       message:error?.message,
       code:error?.code,
       response:error?.response,

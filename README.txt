@@ -1,7 +1,7 @@
-CONVERTVIDEO ONE PAGE
+DIGITALVIDEO ONE PAGE
 
 Dominio:
-https://conversioncintasvhsadigital.com.es/
+https://digitalizarcintas.es/
 (corregido de http:// a https:// en canonical, og:url, JSON-LD,
 robots.txt y sitemap.xml; sin colisión con ningún otro dominio
 revisado en esta sesión)
@@ -10,7 +10,7 @@ Teléfono caja y botones:
 +34 910 05 47 11
 
 Marca:
-ConvertVideo | Digitalización de Video VHS BETA 8MM Cintas DVD CD MP3 MP4
+DigitalVideo | Digitalización de Video VHS BETA 8MM Cintas DVD CD MP3 MP4
 
 SECCIÓN DE PRECIOS:
 - 1-4 cintas VHS: 15 € + IVA / cinta
@@ -120,7 +120,7 @@ REVISIÓN ADICIONAL (checklist unificado de la familia, a petición del cliente 
 - BUG REAL — el mensaje prellenado de WhatsApp decía "¡Hola Kelatos!"
   en los 6 enlaces de WhatsApp de la página (botón del hero, 3 botones
   "Otros formatos" de la sección de precios, y el flotante). Corregido
-  a "¡Hola ConvertVideo!" en todos.
+  a "¡Hola DigitalVideo!" en todos.
 - Verificado: el menú móvil ya se cerraba correctamente al pulsar un
   enlace.
 - Verificado: sin iconos ni imágenes con proporciones fijas

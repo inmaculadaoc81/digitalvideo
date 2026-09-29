@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="DigitalVideo">
+<rect width="512" height="512" rx="92" fill="#1154c4"/>
+<rect x="82" y="126" width="348" height="260" rx="34" fill="#fff"/>
+<circle cx="176" cy="256" r="56" fill="#1154c4"/>
+<circle cx="336" cy="256" r="56" fill="#1154c4"/>
+<circle cx="176" cy="256" r="22" fill="#fff"/>
+<circle cx="336" cy="256" r="22" fill="#fff"/>
+<rect x="226" y="230" width="60" height="52" rx="10" fill="#1154c4"/>
+<path d="M256 164l34 40h-68l34-40Z" fill="#03d9c7"/>
+<path d="M256 348l-34-40h68l-34 40Z" fill="#ffd51d"/>
+</svg>
