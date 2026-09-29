@@ -208,3 +208,6 @@ footer{background:#070708;color:#fff;padding:34px 0}
 .ctas{grid-template-columns:1fr!important;max-width:620px}
 .ctas .phone,.ctas .wa,.ctas .pickup{grid-column:1/-1}
 @media(max-width:600px){.brand{gap:8px;font-size:19px}.logo{height:46px}.ctas{grid-template-columns:1fr!important}}
+
+/* Header debe formar parte del flujo normal y desaparecer al hacer scroll */
+html body .header{position:static!important;top:auto!important;inset:auto!important;transform:none!important}
