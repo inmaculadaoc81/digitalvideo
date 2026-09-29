@@ -211,3 +211,6 @@ footer{background:#070708;color:#fff;padding:34px 0}
 
 /* Header debe formar parte del flujo normal y desaparecer al hacer scroll */
 html body .header{position:static!important;top:auto!important;inset:auto!important;transform:none!important}
+
+/* Cabecera fija y siempre visible durante el desplazamiento */
+html body .header{position:sticky!important;top:0!important;left:auto!important;right:auto!important;z-index:9000!important;transform:none!important}
