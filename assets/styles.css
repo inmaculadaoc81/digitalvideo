@@ -201,3 +201,10 @@ footer{background:#070708;color:#fff;padding:34px 0}
 .seo-text{max-width:900px;margin-top:18px;display:grid;gap:16px}
 .seo-text p{color:var(--muted);font-size:16px;line-height:1.7;margin:0}
 .seo-text small{color:#8a97a8}
+
+/* DigitalVideo: nombre de marca visible y CTA del hero en columna */
+.brand{display:flex;align-items:center;gap:12px;color:#fff;font-weight:950;font-size:24px;letter-spacing:-.5px}
+.brand-name{display:inline-block;color:#fff}
+.ctas{grid-template-columns:1fr!important;max-width:620px}
+.ctas .phone,.ctas .wa,.ctas .pickup{grid-column:1/-1}
+@media(max-width:600px){.brand{gap:8px;font-size:19px}.logo{height:46px}.ctas{grid-template-columns:1fr!important}}
