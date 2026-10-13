@@ -215,3 +215,4 @@ html body .header{position:static!important;top:auto!important;inset:auto!import
 /* Cabecera fija y siempre visible durante el desplazamiento */
 html body .header{position:sticky!important;top:0!important;left:auto!important;right:auto!important;z-index:9000!important;transform:none!important}
 .quote:hover{filter:brightness(.88)}
+.quote svg{width:20px!important;height:20px!important;max-width:20px!important;max-height:20px!important;flex:0 0 20px!important}
