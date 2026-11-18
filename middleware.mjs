@@ -31,5 +31,5 @@ export default function middleware(request) {
 }
 
 export const config = {
-  matcher: ['/((?!api/|.*\\..*).*)'],
+  matcher: ['/((?!api/|blog|.*\\..*).*)'],
 }
